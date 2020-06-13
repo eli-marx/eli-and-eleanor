@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* header */
+header {
+  position: relative;
+  height: 15vh;
+  background-color: #f99192;
+}
+
+/* container around logo and nav */
+.container-header {
+  width: 80%;
+  height: 15vh;
+  margin: 0 auto;
+}
+
+/* e&e H1 logo */
+.logo {
+  color: #385a7c;
+  display: inline;
+  position: relative;
+  top: 2vh;
+  font-family: Balsamiq sans;
+  font-size: 5vw;
+  outline: #385a7c solid .3vw;
+  padding: .3vw 2vw;
+}
+
+/* style and positioning of nav ul */
+nav ul {
+  list-style: none;
+  position: absolute;
+  top: 4vh;
+  right: 5vw;
+}
+
+/* makes nav list items inline */
+nav ul li {
+  display: inline;
+}
+
+/* makes nav anchors pretty */
+nav ul li a {
+  font-size: 1.3vw;
+  color: #385a7c;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 7vw;
+  padding-top: 7px;
+  font-family: Oswald;
+}
+
+/* nav anchor hover animation */
+nav ul li a:hover {
+  color: #8ad6cc;
+  border-top: solid #8ad6cc 4px;
+  transition: ease-in-out 300ms;
+}
+
+
+.container-main {
+  width: 85%;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-family: Lexend Tera;
+  font-size: 50px;
+}
+
+#starter {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  font-size: 24px;
+}
+
+#starter-words {
+  margin-right: 15px;
+}
+
+main div p {
+  text-indent: 50px;
+  line-height: 30px;
+  margin-left: 10px;
+  font-family: Oswald;
+}
+
+.centered-image {
+  display: block;
+  margin: 10px auto;
+}
+
+/* footer */
+footer {
+  height: 24vh;
+  background-color: #385a7c;
+  font-family: Oswald;
+  color:#f99192
+}
+
+/* container enclosing footer content*/
+.container-footer {
+  width: 80%;
+  height: 24vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* actual word "contact:" within footer */
+#contact {
+  display: inline;
+  position: absolute;
+  top: 1vh;
+}
+
+/* contact information */
+.contact-info {
+  position: relative;
+  top: 5vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin-bottom: 5vh;
+}
+
+#legal-info {
+  display: block;
+  color:#f99192;
+  margin-top: 1vh;
+}
+span {
+  font-size: 25px;
+  color: #8ad6cc;
+  font-family: Balsamiq sans;
+}
