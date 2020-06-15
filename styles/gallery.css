@@ -86,15 +86,15 @@ nav ul li a:hover {
   width: 100%
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 1000px) {
   .column {
-    flex: 50%;
+    flex-basis: 50%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .column {
-    flex: 100%;
+    flex-basis: 100%
   }
 }
 
